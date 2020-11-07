@@ -49,7 +49,7 @@ export const Title = () => {
     return (
         <View style={{ alignSelf: "center", alignItems: "center" }}>
             <Link to={"/"} style={{ textDecoration: "none" }}>
-                <Text style={{ fontSize: 28, color }}>SushiSwap</Text>
+                <Text style={{ fontSize: 28, color }}>SoiCOMPUTE</Text>
             </Link>
         </View>
     );
@@ -62,7 +62,7 @@ const Menu = () => {
                 height: "100%",
                 alignItems: "flex-end"
             }}>
-            <MenuItem title={"Swap"} path={"/swap"} />
+            
             <MenuItem title={"Liquidity"} path={"/liquidity"} />
             {/*<MenuItem title={"Farming"} path={"/farming"} />*/}
             <MenuItem title={"Staking"} path={"/staking"} />
